@@ -1,0 +1,38 @@
+@charset "utf-8";
+/* CSS Document */
+
+html{ height:100%}
+body{ font-size:12px; font-family:"宋体","Arial","Verdana", "Geneva"; line-height:24px; color:#666; margin:0 auto; height:100%;_background-attachment:fixed; _background-image:url(about:blank);}
+p,li,ul,h2,h3,h4,h5,img,form,h1,dd,dt,dl{ margin:0; padding:0; list-style:none; border:0;-ms-interpolation-mode:bicubic;}
+a{ text-decoration:none; color:#369;}
+a:hover{ text-decoration:none;}
+.clearfix:after { content: "."; clear: both; height: 0; visibility: hidden; display: block;}
+.clearfix{ *zoom:1;}
+
+.wrap{ width:1200px; height:849px; margin:0 auto; background:url(../images/bg_index.png) no-repeat; position:relative;}
+.collect{ width:86px; height:18px; display:block; position:absolute; top:43px; right:67px;}
+.search{ width:190px; height:18px; position:absolute; right:63px; top:72px; padding-left:28px; padding-top:5px;}
+.search-txt{ width:140px; height:12px; border:0; background:none;}
+.link-1{ width:250px; height:170px; position:absolute; right:215px; top:170px;}
+.link-1 a.nav{ width:250px; height:170px; display:block;}
+.link-2{ width:125px; height:85px; position:absolute; right:472px; top:313px;}
+.link-2 a.nav{ width:125px; height:85px; display:block;}
+.link-3{ width:125px; height:85px; position:absolute; right:340px; top:393px;}
+.link-3 a.nav{ width:125px; height:85px; display:block;}
+.link-4{ width:125px; height:85px; position:absolute; right:209px; top:460px;}
+.link-4 a.nav{ width:125px; height:85px; display:block;}
+.link-5{ width:125px; height:85px; position:absolute; right:304px; top:554px;}
+.link-5 a.nav{ width:125px; height:85px; display:block;}
+.link-6{ width:125px; height:85px; position:absolute; right:157px; top:601px;}
+.link-6 a.nav{ width:125px; height:85px; display:block;}
+.list{ width:120px; height:auto; border:3px solid #c9c9c9; border-radius:12px; z-index:10; position:absolute;}
+.list li{ width:120px; height:30px; line-height:30px; text-align:center;}
+.list li a{ width:120px; height:30px; line-height:30px; text-align:center; color:#222; font-size:18px; font-family:"微软雅黑";}
+.list li a:hover{ color:#0096dd;}
+.list li a.on{ color:#0096dd;}
+.link-1 .list{ right:-122px; top:80px;}
+.link-2 .list{ left:-122px; top:44px;}
+.link-3 .list{ left:-100px; top:70px;}
+.link-4 .list{ right:-125px; top:25px;}
+.link-5 .list{ left:-122px; top:44px;}
+.link-6 .list{ right:-125px; top:25px;}
