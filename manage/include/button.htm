@@ -1,0 +1,35 @@
+<html>
+<head>
+<title></title>
+<STYLE type=text/css>.point {
+	FONT-SIZE: 12px; CURSOR: hand; COLOR: red; FONT-FAMILY: Webdings; POSITION: absolute; BACKGROUND-COLOR: #E0E9F8
+}
+</STYLE>
+
+</head>
+<script language="JavaScript">
+  function show_click(){
+	if (top.window.f2.cols!="0,*"){
+	top.window.f2.cols="0,*";
+			document.all.menuSwitch.innerHTML="<font class=point>4</font>";
+
+	}else
+	{
+		top.window.f2.cols="175,*"
+				document.all.menuSwitch.innerHTML="<font class=point>3</font>";
+
+	}
+	
+
+}
+</script>
+<body leftmargin="0" topmargin="0" rightmargin="0" >
+<table width="4" height="100%" border="0" cellpadding="0" cellspacing="0" background="../images/pin_bk.gif">
+<TR>
+          <TD onclick=show_click() height=1><img src="../images/pin_bk.gif"></TD></TR>
+        <TR>
+          <TD id=menuSwitch onclick=show_click() height="100%"><FONT 
+            class=point>3</FONT></TD></TR></table>
+
+</body>
+</html>
